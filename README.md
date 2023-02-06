@@ -1,6 +1,6 @@
 # ParticleSwarmOptimization
 
-implementation of the particle swarm algorithm to optimize the paramters and Input Variables of TMVA Classificators.  
+Implementation of the particle swarm algorithm to optimize the paramters and Input Variables of TMVA Classificators.  
 The program will create a swarm of Classifiers in the parameter space.  
 Each classifier will try to improve its input variable combination.  
 Classifiers move in the parameter space using the information of the whole swarm.  
@@ -31,5 +31,8 @@ The Training of the BDTs is done on the batch system and is implemented in Parti
     
 5) After each iteration the ten best classifiers are writen to PSOResult.txt  
    The best classifier and all necessary information is written to a .conf file 
+  
+  
+This is an adaptation to a 3-class classifier to work within the framework of LCFI+ and computing at IFIC. Original work for a 2-class classifier was perform by Andrej Saibel while working on CMS: git@github.com:Andrej-CMS/ParticleSwarmOptimization.git
    
    
